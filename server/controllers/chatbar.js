@@ -1,3 +1,5 @@
+const Message = require("../models/Message");
+const mongoose = require("mongoose");
 const User = require("../models/User");
 
 async function listChatUsers(req, res) {
