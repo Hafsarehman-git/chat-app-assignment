@@ -29,16 +29,16 @@ A real-time one-to-one chat application built with React, Express, Socket.IO, an
 
 **Socket Events**
 
-1.chat:history (Client → Server) — Requests past messages between the current user and another user.
+1. chat:history (Client → Server) — Requests past messages between the current user and another user.
 
-2.chat:send (Client → Server) — Sends a new message to a specific recipient.
+2. chat:send (Client → Server) — Sends a new message to a specific recipient.
 
-3.chat:message (Server → Client) — Delivers a new message to the sender and recipient in real time.
+3. chat:message (Server → Client) — Delivers a new message to the sender and recipient in real time.
 
-4.chat:read (Client → Server) — Marks all messages from a specific user as read.
+4. chat:read (Client → Server) — Marks all messages from a specific user as read.
 
-5.chat:read-ack (Server → Client) — Notifies the original sender that their messages were read.
+5. chat:read-ack (Server → Client) — Notifies the original sender that their messages were read.
 
-6.users:count (Server → Client) — Broadcasts the current number of online users.
+6. users:count (Server → Client) — Broadcasts the current number of online users.
 
-7.disconnect (Client → Server) — Fired automatically when a user's socket connection closes.
+7. disconnect (Client → Server) — Fired automatically when a user's socket connection closes.
