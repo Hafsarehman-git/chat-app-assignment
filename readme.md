@@ -27,7 +27,8 @@ A real-time one-to-one chat application built with React, Express, Socket.IO, an
 
 5. Open your browser at `http://localhost:5173`.
 
-Socket Events
+**Socket Events**
+
 1.chat:history (Client → Server) — Requests past messages between the current user and another user.
 
 2.chat:send (Client → Server) — Sends a new message to a specific recipient.
